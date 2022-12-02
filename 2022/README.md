@@ -1,6 +1,12 @@
 # Advent of Code 2022
 
-These are my attempts at solutions to the [Advent of Code](https://adventofcode.com/2022) challenge for 2022. So far, the language\(s\) I have used are:
+These are my attempts at solutions to the [Advent of Code](https://adventofcode.com/2022) challenge for 2022. Each year, the challenge has a story that explains why we must earn all the gold stars for the puzzles. The story this year is:
+
+> Santa's reindeer typically eat regular reindeer food, but they need a lot of [magical energy](https://adventofcode.com/2018/day/25) to deliver presents on Christmas. For that, their favorite snack is a special type of star fruit that only grows deep in the jungle. The Elves have brought you on their annual expedition to the grove where the fruit grows.
+>
+> To supply enough magical energy, the expedition needs to retrieve a minimum of fifty stars by December 25th. Although the Elves assure you that the grove has plenty of fruit, you decide to grab any fruit you see along the way, just in case.
+
+So far, the language\(s\) I have used are:
 
 - PowerShell
 
