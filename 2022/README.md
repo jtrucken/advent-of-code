@@ -13,7 +13,7 @@ So far, the language\(s\) I have used are:
 I have completed the following days:
 
 - [x] [Day 1](https://github.com/jtrucken/advent-of-code/tree/main/2022/day-1)
-- [ ] [Day 2](https://github.com/jtrucken/advent-of-code/tree/main/2022/day-2)
+- [x] [Day 2](https://github.com/jtrucken/advent-of-code/tree/main/2022/day-2)
 - [ ] Day 3
 - [ ] Day 4
 - [ ] Day 5
