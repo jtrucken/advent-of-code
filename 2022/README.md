@@ -1,6 +1,6 @@
 # Advent of Code 2022
 
-These are my attempts at solutions to the [Advent of Code](https://adventofcode.com/2022) challenge for 2022. I participated alongside @bgalliford and @dfwarden this year. So far, the language\(s\) I have used are:
+These are my attempts at solutions to the [Advent of Code](https://adventofcode.com/2022) challenge for 2022. So far, the language\(s\) I have used are:
 
 -PowerShell
 
