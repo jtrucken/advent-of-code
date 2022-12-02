@@ -2,7 +2,7 @@
 
 These are my attempts at solutions to the [Advent of Code](https://adventofcode.com/2022) challenge for 2022. So far, the language\(s\) I have used are:
 
--PowerShell
+- PowerShell
 
 I have completed the following days:
 
