@@ -1,0 +1,11 @@
+# Day 4: Camp Cleanup
+
+Day 4's puzzle involved finding the total number of completely overlapping and then partially overlapping ranges representing zones of the elves' camp assigned to different elves for clean up. You can view the full description of the puzzle at the Advent of Code website: [Day 4 - Advent of Code 2022](https://adventofcode.com/2022/day/4). I solved this puzzle using Bash. I originally wanted to do the whole calendar in Bash, but that proved too challenging to learn Bash and solve the puzzle on work days, so I had to wait until the weekend when I had more time to devote to it.
+
+## Part 1
+
+For part 1, we needed to find how many pairs of ranges had one range completely contained in the other. This was relatively simple, though I initially overcomplicated my conditional logic to get the result. All I did was split the strings, first on `,` and then on `,` by setting the `IFS` variable, which defines the delimiter for a split operation, and then using the command `read -ar variableName` to store the starts and ends of the two ranges in arrays. There was no need to actually create the whole range, since then I simply needed to use conditional logic to check if the start of the first array was less than or equal to the start of the second array and that the end of the first array was greater than or equal to the end of the second array, which would tell me that the first range contained the second. Simply inverting the conditional checks would tell me if the second array contained the first.
+
+## Part 2
+
+For part 2, we needed to find how many ranges overlapped. Since part 1's result would be part of this count as well, I left that logic alone. I added an `elif` to my `if then` block to check if the start of the first range was less than or equal to the start of the second, and that the end of the first range was greater than or equal to the start of the second range as well as checking if the start of the first range was greater than or equal to the start of the second range but less than or equal to end the of the second range, which would tell me that the two ranges overlapped. All I had to do then was add the count of these cases to the count from part 1 to get the total number of ranges that overlapped in any capacity.
