@@ -9,13 +9,15 @@ These are my attempts at solutions to the [Advent of Code](https://adventofcode.
 So far, the language\(s\) I have used are:
 
 - PowerShell
+- Python 3
+- Bash
 
 I have completed the following days:
 
 - [x] [Day 1](https://github.com/jtrucken/advent-of-code/tree/main/2022/day-1)
 - [x] [Day 2](https://github.com/jtrucken/advent-of-code/tree/main/2022/day-2)
-- [ ] Day 3
-- [ ] Day 4
+- [x] [Day 3](https://github.com/jtrucken/advent-of-code/tree/main/2022/day-3)
+- [x] [Day 4](https://github.com/jtrucken/advent-of-code/tree/main/2022/day-4)
 - [ ] Day 5
 - [ ] Day 6
 - [ ] Day 7
