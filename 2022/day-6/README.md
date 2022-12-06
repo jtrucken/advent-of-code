@@ -1,0 +1,11 @@
+# Day 6: Tuning Trouble
+
+For Day 6's puzzle, we were interpretting encrypted data streams to communicate with the elves, finding groups of distinct characters that represented start-of-packet and start-of-message markers respectively. You can view the full description of the puzzle at the Advent of Code website: [Day 6 - Advent of Code 2022](https://adventofcode.com/2022/day/6). I solved this puzzle using PowerShell.
+
+## Part 1
+
+For part 1, we needed to find how many characters there were before and including a group of 4 distinct characters in a single, long string representing the encrypted data stream that was our input. To achieve this, I split the string into an array of characters, then looped through the characters. My intial thought was to use a Queue (a First In First Out or FIFO data structure) to store the current collection of characters I needed to check for distinctness, which followed nicely from yesterday's exercise in Stacks. Just like stacks, PowerShell has a `Queue` data type under the `System.Collections.Generic` namespace. I then built the logic to populate the queue and then once it was the desired size of distinct characters, I used `Select-Object -Unique` on the queue converted to an array to grab the unique values, which if the length of the resulting array matched the desired number of distinct characters, then I had found the stopping point for the loop, so `break` was called and the final count of characters up until that point (including the four unique characters) was returned. If that wasn't the case, then the first value of the queue was dropped and the current value added. Initially, I also had a check if the incoming character was contained in the queue, but that was uncessary for the way the script executed and ended up causing problems, so I removed it.
+
+## Part 2
+
+For part 2, it was essentially just checking for 14 distinct characters instead of four. I took my logic and put into a function `Find-Marker` that accepted how many distincts were needed as a parameter to find this value.
