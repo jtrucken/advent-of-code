@@ -19,7 +19,7 @@ I have completed the following days:
 - [x] [Day 3](https://github.com/jtrucken/advent-of-code/tree/main/2022/day-3)
 - [x] [Day 4](https://github.com/jtrucken/advent-of-code/tree/main/2022/day-4)
 - [x] [Day 5](https://github.com/jtrucken/advent-of-code/tree/main/2022/day-5)
-- [ ] Day 6
+- [x] [Day 6](https://github.com/jtrucken/advent-of-code/tree/main/2022/day-6)
 - [ ] Day 7
 - [ ] Day 8
 - [ ] Day 9
