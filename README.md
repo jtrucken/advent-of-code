@@ -10,5 +10,6 @@ I'm a mostly self-taught programmer, and I use programming for automation in my 
 
 My first attempt at participation was in 2021, but I didn't get very far. The years I've participated in after are:
 
-- [2022](https://github.com/jtrucken/advent-of-code/tree/main/2022) (I waved the white flag on Day 6)
-- [2023](https://github.com/jtrucken/advent-of-code/tree/main/2023)
+- [2022](./2022) (I waved the white flag on Day 6)
+- [2023](./2023) (I waved the white flag on Day 10)
+- [2024](./2024/)
